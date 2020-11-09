@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="PG-P21SQL P21 PLAY"
+  DTS:DTSID="{9C1D8C1A-E768-4DC3-9C7E-E71041A86064}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=PG-P21SQL;User ID=reports2;Initial Catalog=P21PLAY;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"
+        p4:Salt="BdbuQeeA8K4="
+        p4:IV="1whrf9GQCUA2KapmWRaz2g=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">uxLTw5GgTi5aOIUeSz25ggdYZBJ//F+nIwwIs+cYhrLojY1mo9cNm5bQRfEo1isR5s5R7gW353UehdD5u2kSPVVte7ZTRPslk2Iwmo/ObkG5Z1DzIDKJQN4x1WOWEQN5b35paXUQgK/lehuL4JTJAt3aQHjUoHu1a0tLD5k9e7k=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
